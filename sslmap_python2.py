@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# sslmap_python2.py v0.3.0 - Lightweight TLS/SSL cipher suite scanner.
+# sslmap_python2.py v0.3.1 - Lightweight TLS/SSL cipher suite scanner.
 #             * Uses custom TLS/SSL query engine for increased reliability/speed
 #               (No need for third-party libraries such as OpenSSL)
 #             * Tests for 200+ known cipher suites.
@@ -133,7 +133,7 @@ def scan_known_ciphers(host,port,handshakes):
 if __name__ == '__main__':
     print """
 	         _                       
-	        | |  version 0.3.0             
+	        | |  version 0.3.1             
 	 ___ ___| |_ __ ___   __ _ _ __  
 	/ __/ __| | '_ ` _ \ / _` | '_ \ 
 	\__ \__ \ | | | | | | (_| | |_) |
