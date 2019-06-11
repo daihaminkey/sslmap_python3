@@ -1,5 +1,5 @@
                  _
-                | |  version 0.2.0
+                | |  version 0.3.0
          ___ ___| |_ __ ___   __ _ _ __
         / __/ __| | '_ ` _ \ / _` | '_ \
         \__ \__ \ | | | | | | (_| | |_) |
@@ -12,12 +12,16 @@ The latest version of this document can be obtained from http://thesprawl.org/pr
 
 SSLMap is a lightweight TLS/SSL cipher suite scanner. The tool was designed to meet the need of a simple but reliable way to detect weak ciphers suites enabled on SSL endpoints. SSLMap uses a custom SSL engine to avoid unnecessary limitations imposed by existing libraries, as a result it is capable of detecting uncommon cipher suites (e.g. GOST).
 
+Python2 version was developed by iphelix
+Python3 version was ported by daihaminkey
+
 Sample Session
 ==============
 
 Let's run a sample scan against *thesprawl.org*:
 
-    $ python sslmap.py --host thesprawl.org
+    $ python sslmap_python2.py --host thesprawl.org
+    $ python sslmap_python3.py --host thesprawl.org
 
 	             _                       
 	            | |  version 0.2.0             
@@ -110,7 +114,8 @@ Help Screen
 
 The help screen shows a brief outline of tool's functionality:
 
-    Usage: sslmap.py [options]
+    Usage: sslmap_python2.py [options]
+           sslmap_python3.py [options]
 
     Options:
       -h, --help        show this help message and exit
@@ -127,7 +132,7 @@ The help screen shows a brief outline of tool's functionality:
       --db=ciphers.csv  external cipher suite database. DB Format:
                         cipher_id,name,protocol,Kx,Au,Enc,Bits,Mac,Auth
                         Strength,Enc Strength,Overall Strength
-    Usage: sslmap.py [options]
+    Usage: sslmap_python2.py [options]
 
 Fuzzing
 =======

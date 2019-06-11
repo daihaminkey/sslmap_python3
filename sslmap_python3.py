@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# sslmap_python3.py v0.2.0 - Lightweight TLS/SSL cipher suite scanner.
+# sslmap_python3.py v0.3.0 - Lightweight TLS/SSL cipher suite scanner.
 #             * Uses custom TLS/SSL query engine for increased reliability/speed
 #               (No need for third-party libraries such as OpenSSL)
 #             * Tests for 200+ known cipher suites.
@@ -12,7 +12,7 @@
 #
 # author: iphelix
 # update: Dr_Ciphers - iosifidise@gmail.com
-# python 3.x port: daihaminkey - daihaminkey@icloud.com
+# python3 port: daihaminkey - daihaminkey@icloud.com
 
 import socket
 import binascii
@@ -534,7 +534,7 @@ if __name__ == '__main__':
     |___/___/_|_| |_| |_|\__,_| .__/
                               | |    
       iphelix@thesprawl.org   |_|
-         updates: iosifidise@gmail.com
+         updates: daihaminkey@icloud..com
 """)
 
     # Parse scan parameters

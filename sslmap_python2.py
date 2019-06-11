@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# sslmap_python2.py v0.2.0 - Lightweight TLS/SSL cipher suite scanner.
+# sslmap_python2.py v0.3.0 - Lightweight TLS/SSL cipher suite scanner.
 #             * Uses custom TLS/SSL query engine for increased reliability/speed
 #               (No need for third-party libraries such as OpenSSL)
 #             * Tests for 200+ known cipher suites.
