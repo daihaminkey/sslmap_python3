@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# sslmap.py v0.2.0 - Lightweight TLS/SSL cipher suite scanner.
+# sslmap_python2.py v0.2.0 - Lightweight TLS/SSL cipher suite scanner.
 #             * Uses custom TLS/SSL query engine for increased reliability/speed
 #               (No need for third-party libraries such as OpenSSL)
 #             * Tests for 200+ known cipher suites.
@@ -7,8 +7,8 @@
 #             * Advises on cipher suite security based on Protocol, Key Exchange,
 #               Authentication, Encryption algorithm, and other parameters.
 #             * Configurable handshake versions (e.g. TLSv1.1, SSLv2.0)
-# usage: sslmap.py --host gmail.com --port 443
-#        sslmap.py --help
+# usage: sslmap_python2.py --host gmail.com --port 443
+#        sslmap_python2.py --help
 #
 # author: iphelix
 # update: Dr_Ciphers - iosifidise@gmail.com
